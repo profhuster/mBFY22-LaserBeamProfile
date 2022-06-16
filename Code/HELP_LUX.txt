@@ -1,0 +1,41 @@
+To test:
+print gain values 0.125, 0.25, 1, 2
+for i in veml7700.gain_values:
+ print(veml7700.gain_values[i])
+
+to print integration times in ms:
+for i in veml7700.integration_time_values:
+ print(veml7700.integration_time_values[i])
+25, 50, 100, 200, 400, 800
+
+help(veml7700)
+object <VEML7700 object at 0x3fd8bed0> is of type VEML7700
+  integration_time_value -- <function integration_time_value at 0x3ff7e650>
+  ALS_GAIN_1_4 -- 3
+  ALS_50MS -- 8
+  light_high_threshold -- <UnaryStruct object at 0x3ff7e640>
+  light_low_threshold -- <UnaryStruct object at 0x3ff7e630>
+  light_gain -- <RWBits object at 0x3ff7e620>
+  gain_values -- {0: 1, 1: 2, 2: 0.125, 3: 0.25}
+  gain_value -- <function gain_value at 0x3ff7e5d0>
+  ALS_800MS -- 3
+  ALS_25MS -- 12
+  white -- <ROUnaryStruct object at 0x3ff7e5c0>
+  __init__ -- <function __init__ at 0x3ff7e4f0>
+  ALS_GAIN_1_8 -- 2
+  resolution -- <function resolution at 0x3ff7e480>
+  lux -- <property>
+  light_shutdown -- <RWBit object at 0x3ff7e420>
+  light_interrupt -- <RWBit object at 0x3ff7e410>
+  ALS_100MS -- 0
+  light_interrupt_high -- <ROBit object at 0x3ff7e400>
+  light -- <ROUnaryStruct object at 0x3ff7e3f0>
+  ALS_400MS -- 2
+  __qualname__ -- VEML7700
+  light_integration_time -- <RWBits object at 0x3ff7e3e0>
+  __module__ -- adafruit_veml7700
+  ALS_GAIN_1 -- 0
+  ALS_GAIN_2 -- 1
+  ALS_200MS -- 1
+  integration_time_values -- {12: 25, 0: 100, 8: 50, 1: 200, 2: 400, 3: 800}
+  light_interrupt_low -- <ROBit object at 0x3ff7e3c0>
