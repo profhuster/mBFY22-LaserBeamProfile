@@ -53,7 +53,7 @@ knobDia = 15;
 knobTh = 6;
 // screw dimensions for M3 bolt & nut
 screwD = 3;
-screwClr = 0.2;
+screwClr = 0.5;
 headW = 5.5;
 DY = 1.0; // Amount to enlarge drive hole due to tilting
 
